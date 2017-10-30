@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693349</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Smoke</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Smoke</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Smoke</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693378</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;lokesh - DESKTOP-7FI2243&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">lokesh - DESKTOP-7FI2243</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693379</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693380</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.0.100&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.100</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693381</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.0.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.0.0.1</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693688</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC01</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC01</property>
+  <property name="description">Login with valid credentials and open NFL Player record</property>
+  <property name="id">Test Cases/TC01</property>
+  <property name="source">C:\\Users\\lokesh\\Katalon Studio\\recordedTest Cases\\TC01.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:33</date>
+  <millis>1509324693862</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:34</date>
+  <millis>1509324694221</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:34</date>
+  <millis>1509324694567</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:34</date>
+  <millis>1509324694576</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:34</date>
+  <millis>1509324694608</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697034</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;7451a887dd67170d19f08f96c38e06a1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">7451a887dd67170d19f08f96c38e06a1</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697067</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 61.0.3163.100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 61.0.3163.100</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697067</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697070</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;2.53.0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">2.53.0</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697071</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697072</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697072</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697073</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:37</date>
+  <millis>1509324697104</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:38</date>
+  <millis>1509324698259</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:38</date>
+  <millis>1509324698260</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:38</date>
+  <millis>1509324698260</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:38</date>
+  <millis>1509324698280</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:38</date>
+  <millis>1509324698283</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700925</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700926</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700927</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700932</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700951</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700952</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700953</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:40</date>
+  <millis>1509324700959</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_userid_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_userid_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@type = &amp;apos;email&amp;apos;]) = count(//*[@type = &amp;apos;email&amp;apos;])][count(. | //*[@name = &amp;apos;login&amp;apos;]) = count(//*[@name = &amp;apos;login&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@alt = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@alt = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@aria-label = &amp;apos;User account&amp;apos;]) = count(//*[@aria-label = &amp;apos;User account&amp;apos;])][count(. | //*[@autocomplete = &amp;apos;off&amp;apos;]) = count(//*[@autocomplete = &amp;apos;off&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_userid_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_userid_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701003</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_userid_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_userid_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@type = &amp;apos;email&amp;apos;]) = count(//*[@type = &amp;apos;email&amp;apos;])][count(. | //*[@name = &amp;apos;login&amp;apos;]) = count(//*[@name = &amp;apos;login&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@alt = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@alt = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@aria-label = &amp;apos;User account&amp;apos;]) = count(//*[@aria-label = &amp;apos;User account&amp;apos;])][count(. | //*[@autocomplete = &amp;apos;off&amp;apos;]) = count(//*[@autocomplete = &amp;apos;off&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_userid_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_userid_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701004</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701029</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701031</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_userid_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_userid_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@type = &amp;apos;email&amp;apos;]) = count(//*[@type = &amp;apos;email&amp;apos;])][count(. | //*[@name = &amp;apos;login&amp;apos;]) = count(//*[@name = &amp;apos;login&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@alt = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@alt = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@aria-label = &amp;apos;User account&amp;apos;]) = count(//*[@aria-label = &amp;apos;User account&amp;apos;])][count(. | //*[@autocomplete = &amp;apos;off&amp;apos;]) = count(//*[@autocomplete = &amp;apos;off&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_userid_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_userid_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701045</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_userid_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_userid_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required email field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@placeholder = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@type = &amp;apos;email&amp;apos;]) = count(//*[@type = &amp;apos;email&amp;apos;])][count(. | //*[@name = &amp;apos;login&amp;apos;]) = count(//*[@name = &amp;apos;login&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@alt = &amp;apos;someone@nfl.com&amp;apos;]) = count(//*[@alt = &amp;apos;someone@nfl.com&amp;apos;])][count(. | //*[@aria-label = &amp;apos;User account&amp;apos;]) = count(//*[@aria-label = &amp;apos;User account&amp;apos;])][count(. | //*[@autocomplete = &amp;apos;off&amp;apos;]) = count(//*[@autocomplete = &amp;apos;off&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_userid_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_userid_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701048</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos; to value &amp;apos;lokesh.sharma@nflit.onmicrosoft.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701182</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;lokesh.sharma@nflit.onmicrosoft.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Sign in to your account/input_login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701182</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701182</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701183</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701189</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701190</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701190</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701191</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_password_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_password_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Password&amp;apos;]) = count(//*[@placeholder = &amp;apos;Password&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@aria-label = &amp;apos;Password&amp;apos;]) = count(//*[@aria-label = &amp;apos;Password&amp;apos;])][count(. | //*[@alt = &amp;apos;Password&amp;apos;]) = count(//*[@alt = &amp;apos;Password&amp;apos;])][count(. | //*[@type = &amp;apos;password&amp;apos;]) = count(//*[@type = &amp;apos;password&amp;apos;])][count(. | //*[@name = &amp;apos;passwd&amp;apos;]) = count(//*[@name = &amp;apos;passwd&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_password_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_password_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701224</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_password_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_password_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Password&amp;apos;]) = count(//*[@placeholder = &amp;apos;Password&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@aria-label = &amp;apos;Password&amp;apos;]) = count(//*[@aria-label = &amp;apos;Password&amp;apos;])][count(. | //*[@alt = &amp;apos;Password&amp;apos;]) = count(//*[@alt = &amp;apos;Password&amp;apos;])][count(. | //*[@type = &amp;apos;password&amp;apos;]) = count(//*[@type = &amp;apos;password&amp;apos;])][count(. | //*[@name = &amp;apos;passwd&amp;apos;]) = count(//*[@name = &amp;apos;passwd&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_password_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_password_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701224</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701256</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701257</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_password_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_password_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Password&amp;apos;]) = count(//*[@placeholder = &amp;apos;Password&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@aria-label = &amp;apos;Password&amp;apos;]) = count(//*[@aria-label = &amp;apos;Password&amp;apos;])][count(. | //*[@alt = &amp;apos;Password&amp;apos;]) = count(//*[@alt = &amp;apos;Password&amp;apos;])][count(. | //*[@type = &amp;apos;password&amp;apos;]) = count(//*[@type = &amp;apos;password&amp;apos;])][count(. | //*[@name = &amp;apos;passwd&amp;apos;]) = count(//*[@name = &amp;apos;passwd&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_password_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_password_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701271</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;cred_password_inputtext&amp;apos;]) = count(//*[@id = &amp;apos;cred_password_inputtext&amp;apos;])][count(. | //*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;]) = count(//*[@class = &amp;apos;login_textfield textfield required field normaltext&amp;apos;])][count(. | //*[@placeholder = &amp;apos;Password&amp;apos;]) = count(//*[@placeholder = &amp;apos;Password&amp;apos;])][count(. | //*[@spellcheck = &amp;apos;false&amp;apos;]) = count(//*[@spellcheck = &amp;apos;false&amp;apos;])][count(. | //*[@aria-label = &amp;apos;Password&amp;apos;]) = count(//*[@aria-label = &amp;apos;Password&amp;apos;])][count(. | //*[@alt = &amp;apos;Password&amp;apos;]) = count(//*[@alt = &amp;apos;Password&amp;apos;])][count(. | //*[@type = &amp;apos;password&amp;apos;]) = count(//*[@type = &amp;apos;password&amp;apos;])][count(. | //*[@name = &amp;apos;passwd&amp;apos;]) = count(//*[@name = &amp;apos;passwd&amp;apos;])][count(. | //*[@aria-describedby = &amp;apos;accessibleError&amp;apos;]) = count(//*[@aria-describedby = &amp;apos;accessibleError&amp;apos;])][count(. | id(\&amp;quot;cred_password_inputtext\&amp;quot;)) = count(id(\&amp;quot;cred_password_inputtext\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701271</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos; to value &amp;apos;kirti123#&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701330</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;kirti123#&amp;apos; is set on object &amp;apos;Object Repository/Page_Sign in to your account/input_passwd&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701330</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701331</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701344</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701378</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701379</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701379</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701380</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701407</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sending keys &amp;apos;ENTER + &amp;apos; to object: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701407</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701408</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;cred_sign_in_button&amp;apos;]) = count(//*[@id = &amp;apos;cred_sign_in_button&amp;apos;])][count(. | //*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;]) = count(//*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;])][count(. | //*[text() = &amp;apos;\n            Sign in\n        &amp;apos;]) = count(//*[text() = &amp;apos;\n            Sign in\n        &amp;apos;])][count(. | id(\&amp;quot;cred_sign_in_button\&amp;quot;)) = count(id(\&amp;quot;cred_sign_in_button\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701439</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;cred_sign_in_button&amp;apos;]) = count(//*[@id = &amp;apos;cred_sign_in_button&amp;apos;])][count(. | //*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;]) = count(//*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;])][count(. | //*[text() = &amp;apos;\n            Sign in\n        &amp;apos;]) = count(//*[text() = &amp;apos;\n            Sign in\n        &amp;apos;])][count(. | id(\&amp;quot;cred_sign_in_button\&amp;quot;)) = count(id(\&amp;quot;cred_sign_in_button\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701489</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701490</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701490</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701491</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701506</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701507</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701507</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;cred_sign_in_button&amp;apos;]) = count(//*[@id = &amp;apos;cred_sign_in_button&amp;apos;])][count(. | //*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;]) = count(//*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;])][count(. | //*[text() = &amp;apos;\n            Sign in\n        &amp;apos;]) = count(//*[text() = &amp;apos;\n            Sign in\n        &amp;apos;])][count(. | id(\&amp;quot;cred_sign_in_button\&amp;quot;)) = count(id(\&amp;quot;cred_sign_in_button\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701558</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;cred_sign_in_button&amp;apos;]) = count(//*[@id = &amp;apos;cred_sign_in_button&amp;apos;])][count(. | //*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;]) = count(//*[@class = &amp;apos;button normaltext cred_sign_in_button refresh_domain_state control-button button-two button_primary&amp;apos;])][count(. | //*[text() = &amp;apos;\n            Sign in\n        &amp;apos;]) = count(//*[text() = &amp;apos;\n            Sign in\n        &amp;apos;])][count(. | id(\&amp;quot;cred_sign_in_button\&amp;quot;)) = count(id(\&amp;quot;cred_sign_in_button\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701559</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701674</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Sign in to your account/button_Sign in&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701674</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701674</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC01</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701675</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC01</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701733</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC02</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC02</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC02</property>
+  <property name="source">C:\\Users\\lokesh\\Katalon Studio\\recordedTest Cases\\TC02.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701754</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701991</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701992</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:41</date>
+  <millis>1509324701998</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:42</date>
+  <millis>1509324702004</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:42</date>
+  <millis>1509324702005</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:42</date>
+  <millis>1509324702007</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:42</date>
+  <millis>1509324702008</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:42</date>
+  <millis>1509324702009</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:58</date>
+  <millis>1509324718959</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:58</date>
+  <millis>1509324718987</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:58</date>
+  <millis>1509324718987</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:58</date>
+  <millis>1509324718988</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos; located by &amp;apos;By.xpath: //label[count(. | //*[@for = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@for = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@id = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFindHint ms-crm-TextAutoEllipsis&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFindHint ms-crm-TextAutoEllipsis&amp;apos;])][count(. | //*[text() = &amp;apos;Search for records&amp;apos;]) = count(//*[text() = &amp;apos;Search for records&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findHintText\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findHintText\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719020</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos; located by &amp;apos;By.xpath: //label[count(. | //*[@for = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@for = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@id = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFindHint ms-crm-TextAutoEllipsis&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFindHint ms-crm-TextAutoEllipsis&amp;apos;])][count(. | //*[text() = &amp;apos;Search for records&amp;apos;]) = count(//*[text() = &amp;apos;Search for records&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findHintText\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findHintText\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719020</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719125</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/label_Search for records&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719135</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719141</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719141</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719142</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719147</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719152</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719153</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719153</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719154</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719154</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719155</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719190</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719203</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719203</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719204</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@title = &amp;apos;Search for records&amp;apos;]) = count(//*[@title = &amp;apos;Search for records&amp;apos;])][count(. | //*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;])][count(. | //*[@maxlength = &amp;apos;100&amp;apos;]) = count(//*[@maxlength = &amp;apos;100&amp;apos;])][count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteria\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteria\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719305</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@title = &amp;apos;Search for records&amp;apos;]) = count(//*[@title = &amp;apos;Search for records&amp;apos;])][count(. | //*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;])][count(. | //*[@maxlength = &amp;apos;100&amp;apos;]) = count(//*[@maxlength = &amp;apos;100&amp;apos;])][count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteria\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteria\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:21:59</date>
+  <millis>1509324719306</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720247</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720248</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@title = &amp;apos;Search for records&amp;apos;]) = count(//*[@title = &amp;apos;Search for records&amp;apos;])][count(. | //*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;])][count(. | //*[@maxlength = &amp;apos;100&amp;apos;]) = count(//*[@maxlength = &amp;apos;100&amp;apos;])][count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteria\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteria\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720405</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteria&amp;apos;])][count(. | //*[@title = &amp;apos;Search for records&amp;apos;]) = count(//*[@title = &amp;apos;Search for records&amp;apos;])][count(. | //*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;]) = count(//*[@hintlabelid = &amp;apos;Component0458004_findHintText&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-Dialog-Lookup-QuickFind&amp;apos;])][count(. | //*[@maxlength = &amp;apos;100&amp;apos;]) = count(//*[@maxlength = &amp;apos;100&amp;apos;])][count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteria\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteria\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720405</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos; to value &amp;apos;Ayers, John&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720630</millis>
+  <sequence>116</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Ayers, John&amp;apos; is set on object &amp;apos;Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720636</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720642</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720642</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720643</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720647</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720651</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720651</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720652</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720653</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720654</millis>
+  <sequence>126</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720668</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720686</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720686</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720687</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@id = &amp;apos;Component0458004_findCriteriaImg&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteriaImg&amp;apos;])][count(. | //*[@src = &amp;apos;/_imgs/imagestrips/transparent_spacer.gif&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/imagestrips/transparent_spacer.gif&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-ImageStrip-search&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-ImageStrip-search&amp;apos;])][count(. | //*[@imgbase = &amp;apos;/_imgs/search&amp;apos;]) = count(//*[@imgbase = &amp;apos;/_imgs/search&amp;apos;])][count(. | //*[@title = &amp;apos;Start search&amp;apos;]) = count(//*[@title = &amp;apos;Start search&amp;apos;])][count(. | //*[@alt = &amp;apos;Start search&amp;apos;]) = count(//*[@alt = &amp;apos;Start search&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteriaImg\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteriaImg\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720845</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@id = &amp;apos;Component0458004_findCriteriaImg&amp;apos;]) = count(//*[@id = &amp;apos;Component0458004_findCriteriaImg&amp;apos;])][count(. | //*[@src = &amp;apos;/_imgs/imagestrips/transparent_spacer.gif&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/imagestrips/transparent_spacer.gif&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-ImageStrip-search&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-ImageStrip-search&amp;apos;])][count(. | //*[@imgbase = &amp;apos;/_imgs/search&amp;apos;]) = count(//*[@imgbase = &amp;apos;/_imgs/search&amp;apos;])][count(. | //*[@title = &amp;apos;Start search&amp;apos;]) = count(//*[@title = &amp;apos;Start search&amp;apos;])][count(. | //*[@alt = &amp;apos;Start search&amp;apos;]) = count(//*[@alt = &amp;apos;Start search&amp;apos;])][count(. | id(\&amp;quot;Component0458004_findCriteriaImg\&amp;quot;)) = count(id(\&amp;quot;Component0458004_findCriteriaImg\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:00</date>
+  <millis>1509324720846</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721280</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721308</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721317</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721317</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToFrame</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721318</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721333</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721334</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721335</millis>
+  <sequence>140</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721336</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721358</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721377</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Dashboards Player Community Da/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721377</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToFrame</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721377</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721378</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Dashboards Player Community Da/a_PlayerResult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721383</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721384</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721384</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/a_PlayerResult&amp;apos; located by &amp;apos;By.xpath: html/body/div[1]/div/div[2]/div/div/div/div/form/div/div/table/tbody/tr/td/div/div[1]/div[1]/div/span/div/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/div/div[2]/div/div/div/div[1]/table/tbody/tr[1]/td[2]/nobr/a&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721413</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Dashboards Player Community Da/a_PlayerResult&amp;apos; located by &amp;apos;By.xpath: html/body/div[1]/div/div[2]/div/div/div/div/form/div/div/table/tbody/tr/td/div/div[1]/div[1]/div/span/div/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/div/div[2]/div/div/div/div[1]/table/tbody/tr[1]/td[2]/nobr/a&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721414</millis>
+  <sequence>151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/a_PlayerResult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721770</millis>
+  <sequence>152</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dashboards Player Community Da/a_PlayerResult&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721771</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721772</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:01</date>
+  <millis>1509324721772</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736898</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736898</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736899</millis>
+  <sequence>158</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC02</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736899</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC02</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736951</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC03</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC03</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC03</property>
+  <property name="source">C:\\Users\\lokesh\\Katalon Studio\\recordedTest Cases\\TC03.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:16</date>
+  <millis>1509324736960</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737050</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToDefaultContent</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737062</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737067</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToDefaultContent</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737068</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737068</millis>
+  <sequence>166</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Details/img&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737073</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737077</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737078</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/img&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737078</millis>
+  <sequence>170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737078</millis>
+  <sequence>171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737079</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737106</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737118</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737119</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:17</date>
+  <millis>1509324737119</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Details/img&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@src = &amp;apos;/_imgs/formsections_navigationflyout_button.png&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/formsections_navigationflyout_button.png&amp;apos;])][count(. | //*[@alt = &amp;apos;FormSections_NavigationFlyOut_Button&amp;apos;]) = count(//*[@alt = &amp;apos;FormSections_NavigationFlyOut_Button&amp;apos;])][count(. | id(\&amp;quot;FormSecNavigationControl-Icon\&amp;quot;)/img[1]) = count(id(\&amp;quot;FormSecNavigationControl-Icon\&amp;quot;)/img[1])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738239</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Details/img&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@src = &amp;apos;/_imgs/formsections_navigationflyout_button.png&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/formsections_navigationflyout_button.png&amp;apos;])][count(. | //*[@alt = &amp;apos;FormSections_NavigationFlyOut_Button&amp;apos;]) = count(//*[@alt = &amp;apos;FormSections_NavigationFlyOut_Button&amp;apos;])][count(. | id(\&amp;quot;FormSecNavigationControl-Icon\&amp;quot;)/img[1]) = count(id(\&amp;quot;FormSecNavigationControl-Icon\&amp;quot;)/img[1])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738239</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Player Details/img&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738821</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/img&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738860</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738865</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738865</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738866</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738869</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738873</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738874</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738874</millis>
+  <sequence>187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738874</millis>
+  <sequence>188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738875</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738896</millis>
+  <sequence>190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738918</millis>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Player Details/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738918</millis>
+  <sequence>192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:18</date>
+  <millis>1509324738919</millis>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos; located by &amp;apos;By.xpath: //a[count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;flyoutFormSection_Anchor&amp;apos;]) = count(//*[@id = &amp;apos;flyoutFormSection_Anchor&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-FormSectionNavigation&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-FormSectionNavigation&amp;apos;])][count(. | //*[text() = &amp;apos;Additional Details&amp;apos;]) = count(//*[text() = &amp;apos;Additional Details&amp;apos;])][count(. | id(\&amp;quot;flyoutFormSection_tab_5\&amp;quot;)/td[@id=\&amp;quot;flyoutFormSection_Cell\&amp;quot;]/a[@id=\&amp;quot;flyoutFormSection_Anchor\&amp;quot;]) = count(id(\&amp;quot;flyoutFormSection_tab_5\&amp;quot;)/td[@id=\&amp;quot;flyoutFormSection_Cell\&amp;quot;]/a[@id=\&amp;quot;flyoutFormSection_Anchor\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739652</millis>
+  <sequence>194</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos; located by &amp;apos;By.xpath: //a[count(. | //*[@tabindex = &amp;apos;0&amp;apos;]) = count(//*[@tabindex = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;flyoutFormSection_Anchor&amp;apos;]) = count(//*[@id = &amp;apos;flyoutFormSection_Anchor&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-FormSectionNavigation&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-FormSectionNavigation&amp;apos;])][count(. | //*[text() = &amp;apos;Additional Details&amp;apos;]) = count(//*[text() = &amp;apos;Additional Details&amp;apos;])][count(. | id(\&amp;quot;flyoutFormSection_tab_5\&amp;quot;)/td[@id=\&amp;quot;flyoutFormSection_Cell\&amp;quot;]/a[@id=\&amp;quot;flyoutFormSection_Anchor\&amp;quot;]) = count(id(\&amp;quot;flyoutFormSection_tab_5\&amp;quot;)/td[@id=\&amp;quot;flyoutFormSection_Cell\&amp;quot;]/a[@id=\&amp;quot;flyoutFormSection_Anchor\&amp;quot;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739653</millis>
+  <sequence>195</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739787</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/a_Additional Details&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739792</millis>
+  <sequence>197</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739797</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739797</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739798</millis>
+  <sequence>200</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739801</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739804</millis>
+  <sequence>202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739804</millis>
+  <sequence>203</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739805</millis>
+  <sequence>204</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739805</millis>
+  <sequence>205</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739806</millis>
+  <sequence>206</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739834</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_contentIFrame0&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@frameborder = &amp;apos;0&amp;apos;]) = count(//*[@frameborder = &amp;apos;0&amp;apos;])][count(. | //*[@id = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@id = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@name = &amp;apos;contentIFrame0&amp;apos;]) = count(//*[@name = &amp;apos;contentIFrame0&amp;apos;])][count(. | //*[@title = &amp;apos;Content Area&amp;apos;]) = count(//*[@title = &amp;apos;Content Area&amp;apos;])][count(. | //*[@ispreserved = &amp;apos;always&amp;apos;]) = count(//*[@ispreserved = &amp;apos;always&amp;apos;])][count(. | id(\&amp;quot;contentIFrame0\&amp;quot;)) = count(id(\&amp;quot;contentIFrame0\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739847</millis>
+  <sequence>208</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_contentIFrame0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739847</millis>
+  <sequence>209</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739848</millis>
+  <sequence>210</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos; located by &amp;apos;By.xpath: //img[@id=&amp;apos;langskills_addImageButtonImage&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739872</millis>
+  <sequence>211</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos; located by &amp;apos;By.xpath: //img[@id=&amp;apos;langskills_addImageButtonImage&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739872</millis>
+  <sequence>212</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:19</date>
+  <millis>1509324739995</millis>
+  <sequence>213</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Details/Add_Language&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742906</millis>
+  <sequence>214</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742911</millis>
+  <sequence>215</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742912</millis>
+  <sequence>216</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742912</millis>
+  <sequence>217</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742915</millis>
+  <sequence>218</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742918</millis>
+  <sequence>219</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742918</millis>
+  <sequence>220</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742919</millis>
+  <sequence>221</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742919</millis>
+  <sequence>222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742919</millis>
+  <sequence>223</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742920</millis>
+  <sequence>224</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;])][count(. | //*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:22</date>
+  <millis>1509324742950</millis>
+  <sequence>225</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;])][count(. | //*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743004</millis>
+  <sequence>226</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743004</millis>
+  <sequence>227</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743004</millis>
+  <sequence>228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@ime-mode = &amp;apos;auto&amp;apos;]) = count(//*[@ime-mode = &amp;apos;auto&amp;apos;])][count(. | //*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;]) = count(//*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;])][count(. | //*[@maxlength = &amp;apos;1000&amp;apos;]) = count(//*[@maxlength = &amp;apos;1000&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_ledit\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_ledit\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743050</millis>
+  <sequence>229</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@ime-mode = &amp;apos;auto&amp;apos;]) = count(//*[@ime-mode = &amp;apos;auto&amp;apos;])][count(. | //*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;]) = count(//*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;])][count(. | //*[@maxlength = &amp;apos;1000&amp;apos;]) = count(//*[@maxlength = &amp;apos;1000&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_ledit\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_ledit\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743050</millis>
+  <sequence>230</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743080</millis>
+  <sequence>231</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743080</millis>
+  <sequence>232</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@ime-mode = &amp;apos;auto&amp;apos;]) = count(//*[@ime-mode = &amp;apos;auto&amp;apos;])][count(. | //*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;]) = count(//*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;])][count(. | //*[@maxlength = &amp;apos;1000&amp;apos;]) = count(//*[@maxlength = &amp;apos;1000&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_ledit\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_ledit\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743095</millis>
+  <sequence>233</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineInput ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@ime-mode = &amp;apos;auto&amp;apos;]) = count(//*[@ime-mode = &amp;apos;auto&amp;apos;])][count(. | //*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;]) = count(//*[@aria-labelledby = &amp;apos;nfl_languageid_c nfl_languageid_w&amp;apos;])][count(. | //*[@type = &amp;apos;text&amp;apos;]) = count(//*[@type = &amp;apos;text&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_ledit&amp;apos;])][count(. | //*[@maxlength = &amp;apos;1000&amp;apos;]) = count(//*[@maxlength = &amp;apos;1000&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_ledit\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_ledit\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743096</millis>
+  <sequence>234</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos; to value &amp;apos;English&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743275</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;English&amp;apos; is set on object &amp;apos;Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743279</millis>
+  <sequence>236</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743283</millis>
+  <sequence>237</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743283</millis>
+  <sequence>238</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743284</millis>
+  <sequence>239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743286</millis>
+  <sequence>240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743289</millis>
+  <sequence>241</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743290</millis>
+  <sequence>242</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i&amp;apos; has parent object(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743290</millis>
+  <sequence>243</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743290</millis>
+  <sequence>244</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743291</millis>
+  <sequence>245</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;])][count(. | //*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743305</millis>
+  <sequence>246</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos; located by &amp;apos;By.xpath: //iframe[count(. | //*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-iframe&amp;apos;])][count(. | //*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743324</millis>
+  <sequence>247</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to iframe: &amp;apos;Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743324</millis>
+  <sequence>248</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:23</date>
+  <millis>1509324743325</millis>
+  <sequence>249</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@src = &amp;apos;/_imgs/search_hover.gif&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/search_hover.gif&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_i&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_i&amp;apos;])][count(. | //*[@alt = &amp;apos;Select a value.&amp;apos;]) = count(//*[@alt = &amp;apos;Select a value.&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@title = &amp;apos;Select a value.&amp;apos;]) = count(//*[@title = &amp;apos;Select a value.&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_i\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_i\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775359</millis>
+  <sequence>250</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to default content</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775693</millis>
+  <sequence>251</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i&amp;apos; located by &amp;apos;By.xpath: //img[count(. | //*[@src = &amp;apos;/_imgs/search_hover.gif&amp;apos;]) = count(//*[@src = &amp;apos;/_imgs/search_hover.gif&amp;apos;])][count(. | //*[@id = &amp;apos;nfl_languageid_i&amp;apos;]) = count(//*[@id = &amp;apos;nfl_languageid_i&amp;apos;])][count(. | //*[@alt = &amp;apos;Select a value.&amp;apos;]) = count(//*[@alt = &amp;apos;Select a value.&amp;apos;])][count(. | //*[@class = &amp;apos;ms-crm-InlineLookupEdit&amp;apos;]) = count(//*[@class = &amp;apos;ms-crm-InlineLookupEdit&amp;apos;])][count(. | //*[@title = &amp;apos;Select a value.&amp;apos;]) = count(//*[@title = &amp;apos;Select a value.&amp;apos;])][count(. | id(\&amp;quot;nfl_languageid_i\&amp;quot;)) = count(id(\&amp;quot;nfl_languageid_i\&amp;quot;))]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1509324775395.png</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775694</millis>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775694</millis>
+  <sequence>253</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775695</millis>
+  <sequence>254</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Player Language New Player Lan/button_Save&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775700</millis>
+  <sequence>255</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775700</millis>
+  <sequence>256</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775701</millis>
+  <sequence>257</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/button_Save&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;globalquickcreate_save_button_NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;globalquickcreate_save_button_NavBarGloablQuickCreate&amp;apos;])][count(. | //*[@class = &amp;apos;mscrm-globalqc-actionbutton&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-actionbutton&amp;apos;])][count(. | //*[@button_quickiframe_id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@button_quickiframe_id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | //*[text() = &amp;apos;Save&amp;apos;]) = count(//*[text() = &amp;apos;Save&amp;apos;])][count(. | id(\&amp;quot;globalquickcreate_save_button_NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;globalquickcreate_save_button_NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775735</millis>
+  <sequence>258</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Player Language New Player Lan/button_Save&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[@id = &amp;apos;globalquickcreate_save_button_NavBarGloablQuickCreate&amp;apos;]) = count(//*[@id = &amp;apos;globalquickcreate_save_button_NavBarGloablQuickCreate&amp;apos;])][count(. | //*[@class = &amp;apos;mscrm-globalqc-actionbutton&amp;apos;]) = count(//*[@class = &amp;apos;mscrm-globalqc-actionbutton&amp;apos;])][count(. | //*[@button_quickiframe_id = &amp;apos;NavBarGloablQuickCreate&amp;apos;]) = count(//*[@button_quickiframe_id = &amp;apos;NavBarGloablQuickCreate&amp;apos;])][count(. | //*[text() = &amp;apos;Save&amp;apos;]) = count(//*[text() = &amp;apos;Save&amp;apos;])][count(. | id(\&amp;quot;globalquickcreate_save_button_NavBarGloablQuickCreate\&amp;quot;)) = count(id(\&amp;quot;globalquickcreate_save_button_NavBarGloablQuickCreate\&amp;quot;))]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775735</millis>
+  <sequence>259</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_Player Language New Player Lan/button_Save&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775794</millis>
+  <sequence>260</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Player Language New Player Lan/button_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775795</millis>
+  <sequence>261</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775795</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC03</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:55</date>
+  <millis>1509324775795</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC03</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-30T06:22:56</date>
+  <millis>1509324776786</millis>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Smoke</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

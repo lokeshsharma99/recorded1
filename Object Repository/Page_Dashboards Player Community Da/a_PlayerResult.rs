@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_PlayerResult</name>
+   <tag></tag>
+   <elementGuidId>d24af131-bf97-4eee-a252-c94d1c2eb653</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>html/body/div[1]/div/div[2]/div/div/div/div/form/div/div/table/tbody/tr/td/div/div[1]/div[1]/div/span/div/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/div/div[2]/div/div/div/div[1]/table/tbody/tr[1]/td[2]/nobr/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;}_0&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>a[id*='_0']</value>
+   </webElementProperties>
+</WebElementEntity>

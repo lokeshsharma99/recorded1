@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="147" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke" tests="2" failures="1" errors="0" time="147" timestamp="2017-10-30 06:05:34" hostname="lokesh - DESKTOP-7FI2243" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_060533"/>
+         <property name="logFiles" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_060533\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_060533\\1509323880935.png"/>
+         <property name="hostName" value="lokesh - DESKTOP-7FI2243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="228b2ec1235fc8524ab8ad6b56306b75"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[2017-10-30 06:05:35 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+2017-10-30 06:05:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-30 06:05:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-30 06:05:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 06:05:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 06:05:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 06:05:51 - [MESSAGE][PASSED] - Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 06:05:51 - [TEST_STEP][PASSED] - setText: Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 06:06:08 - [MESSAGE][PASSED] - Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 06:06:08 - [TEST_STEP][PASSED] - setText: Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 06:06:09 - [MESSAGE][PASSED] - Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 06:06:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-10-30 06:06:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-10-30 06:06:09 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 06:06:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 06:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on
+
+2017-10-30 06:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2017-10-30 06:06:09 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2017-10-30 06:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 06:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 06:06:45 - [TEST_STEP][PASSED] - setText: Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 06:06:46 - [MESSAGE][PASSED] - Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 06:06:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 06:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 06:06:47 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:06:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:06:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/a_PlayerResult' is clicked on
+
+2017-10-30 06:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/a_PlayerResult' is clicked on
+
+2017-10-30 06:06:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-10-30 06:07:24 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03" classname="Test Cases/TC03" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id(&quot;NavBarGloablQuickCreate&quot;)) = count(id(&quot;NavBarGloablQuickCreate&quot;))]' not found)"/>
+         <system-out><![CDATA[2017-10-30 06:07:24 - [TEST_CASE][FAILED] - Test Cases/TC03: Test Cases/TC03 FAILED because (of) Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)
+
+2017-10-30 06:07:24 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-10-30 06:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/img' is clicked on
+
+2017-10-30 06:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/img' is clicked on
+
+2017-10-30 06:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/a_Additional Details' is clicked on
+
+2017-10-30 06:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/a_Additional Details' is clicked on
+
+2017-10-30 06:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/Add_Language' is clicked on
+
+2017-10-30 06:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/Add_Language' is clicked on
+
+2017-10-30 06:07:29 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:07:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:07:29 - [TEST_STEP][FAILED] - setText: Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)
+
+2017-10-30 06:08:01 - [MESSAGE][FAILED] - Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)
+[[ATTACHMENT|C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_060533\\1509323880935.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-30 06:07:24 - [TEST_CASE][FAILED] - Test Cases/TC03: Test Cases/TC03 FAILED because (of) Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 06:05:34 - [TEST_SUITE][FAILED] - Smoke: Test Cases/TC03 FAILED because (of) Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)]]></system-out>
+      <system-err><![CDATA[2017-10-30 06:05:34 - [TEST_SUITE][FAILED] - Smoke: Test Cases/TC03 FAILED because (of) Unable to set text 'English' of object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate' located by 'By.xpath: //iframe[count(. | //*[@class = 'mscrm-globalqc-iframe']) = count(//*[@class = 'mscrm-globalqc-iframe'])][count(. | //*[@id = 'NavBarGloablQuickCreate']) = count(//*[@id = 'NavBarGloablQuickCreate'])][count(. | id("NavBarGloablQuickCreate")) = count(id("NavBarGloablQuickCreate"))]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

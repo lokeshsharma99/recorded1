@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_nfl_languageid_ledit</name>
+   <tag></tag>
+   <elementGuidId>1f3a458f-7783-40b5-af6f-9666974def95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@class = 'ms-crm-InlineInput ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineInput ms-crm-InlineLookupEdit'])][count(. | //*[@ime-mode = 'auto']) = count(//*[@ime-mode = 'auto'])][count(. | //*[@aria-labelledby = 'nfl_languageid_c nfl_languageid_w']) = count(//*[@aria-labelledby = 'nfl_languageid_c nfl_languageid_w'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@id = 'nfl_languageid_ledit']) = count(//*[@id = 'nfl_languageid_ledit'])][count(. | //*[@maxlength = '1000']) = count(//*[@maxlength = '1000'])][count(. | id(&quot;nfl_languageid_ledit&quot;)) = count(id(&quot;nfl_languageid_ledit&quot;))][count(. | //*[@ref_element = 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate']) = count(//*[@ref_element = 'Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-crm-InlineInput ms-crm-InlineLookupEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ime-mode</name>
+      <type>Main</type>
+      <value>auto</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>nfl_languageid_c nfl_languageid_w</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nfl_languageid_ledit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>1000</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nfl_languageid_ledit&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Player Language New Player Lan/iframe_NavBarGloablQuickCreate</value>
+   </webElementProperties>
+</WebElementEntity>

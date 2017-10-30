@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="53" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke" tests="2" failures="0" errors="0" time="53" timestamp="2017-10-30 04:32:02" hostname="lokesh - DESKTOP-7FI2243" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_043201"/>
+         <property name="logFiles" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_043201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lokesh - DESKTOP-7FI2243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="71f019d592341193dddaf80e5303f579"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[2017-10-30 04:32:03 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+2017-10-30 04:32:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-30 04:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-30 04:32:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 04:32:07 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 04:32:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 04:32:26 - [MESSAGE][PASSED] - Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 04:32:26 - [TEST_STEP][PASSED] - setText: Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 04:32:26 - [MESSAGE][PASSED] - Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 04:32:26 - [TEST_STEP][PASSED] - setText: Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 04:32:26 - [MESSAGE][PASSED] - Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 04:32:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-10-30 04:32:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-10-30 04:32:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 04:32:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 04:32:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on
+
+2017-10-30 04:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2017-10-30 04:32:27 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2017-10-30 04:32:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 04:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 04:32:52 - [TEST_STEP][PASSED] - setText: Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 04:32:52 - [MESSAGE][PASSED] - Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 04:32:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 04:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 04:32:54 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 04:32:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 04:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/a_Abe Nachi' is clicked on
+
+2017-10-30 04:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/a_Abe Nachi' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 04:32:02 - [TEST_SUITE][PASSED] - Smoke: Test Cases/TC02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

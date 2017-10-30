@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="88" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke" tests="2" failures="1" errors="0" time="88" timestamp="2017-10-30 06:19:31" hostname="lokesh - DESKTOP-7FI2243" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_061929"/>
+         <property name="logFiles" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_061929\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_061929\\1509324658376.png"/>
+         <property name="hostName" value="lokesh - DESKTOP-7FI2243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="6dc1149d716b61fe3ea3ad207088cc36"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[2017-10-30 06:19:31 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+2017-10-30 06:19:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-30 06:19:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-30 06:19:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 06:19:36 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 06:19:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 06:19:48 - [MESSAGE][PASSED] - Navigate to 'https://nflplayercomm-test.crm.dynamics.com/main.aspx?appid=cc7e976d-8a90-422a-a6c3-5d97a285f749' successfully
+
+2017-10-30 06:19:48 - [TEST_STEP][PASSED] - setText: Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 06:19:48 - [MESSAGE][PASSED] - Text 'lokesh.sharma@nflit.onmicrosoft.com' is set on object 'Object Repository/Page_Sign in to your account/input_login'
+
+2017-10-30 06:19:48 - [TEST_STEP][PASSED] - setText: Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 06:19:48 - [MESSAGE][PASSED] - Text 'kirti123#' is set on object 'Object Repository/Page_Sign in to your account/input_passwd'
+
+2017-10-30 06:19:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-10-30 06:19:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-10-30 06:19:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 06:19:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to your account/button_Sign in'
+
+2017-10-30 06:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on
+
+2017-10-30 06:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2017-10-30 06:19:49 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2017-10-30 06:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 06:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/label_Search for records' is clicked on
+
+2017-10-30 06:20:07 - [TEST_STEP][PASSED] - setText: Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 06:20:08 - [MESSAGE][PASSED] - Text 'Ayers, John' is set on object 'Object Repository/Page_Dashboards Player Community Da/input_Component0458004_findCri'
+
+2017-10-30 06:20:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 06:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/img_Component0458004_findCrite' is clicked on
+
+2017-10-30 06:20:09 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-30 06:20:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboards Player Community Da/a_PlayerResult' is clicked on
+
+2017-10-30 06:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboards Player Community Da/a_PlayerResult' is clicked on
+
+2017-10-30 06:20:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-10-30 06:20:20 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03" classname="Test Cases/TC03" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id(&quot;nfl_languageid_i&quot;)) = count(id(&quot;nfl_languageid_i&quot;))]' not found)"/>
+         <system-out><![CDATA[2017-10-30 06:20:20 - [TEST_CASE][FAILED] - Test Cases/TC03: Test Cases/TC03 FAILED because (of) Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)
+
+2017-10-30 06:20:21 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-10-30 06:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/img' is clicked on
+
+2017-10-30 06:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/img' is clicked on
+
+2017-10-30 06:20:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/a_Additional Details' is clicked on
+
+2017-10-30 06:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/a_Additional Details' is clicked on
+
+2017-10-30 06:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Player Details/Add_Language' is clicked on
+
+2017-10-30 06:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Player Details/Add_Language' is clicked on
+
+2017-10-30 06:20:25 - [TEST_STEP][PASSED] - setText: Text 'English' is set on object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit'
+
+2017-10-30 06:20:25 - [MESSAGE][PASSED] - Text 'English' is set on object 'Object Repository/Page_Player Language New Player Lan/input_nfl_languageid_ledit'
+
+2017-10-30 06:20:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)
+
+2017-10-30 06:20:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)
+[[ATTACHMENT|C:\\Users\\lokesh\\Katalon Studio\\recorded\\Reports\\Smoke\\20171030_061929\\1509324658376.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-30 06:20:20 - [TEST_CASE][FAILED] - Test Cases/TC03: Test Cases/TC03 FAILED because (of) Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 06:19:31 - [TEST_SUITE][FAILED] - Smoke: Test Cases/TC03 FAILED because (of) Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)]]></system-out>
+      <system-err><![CDATA[2017-10-30 06:19:31 - [TEST_SUITE][FAILED] - Smoke: Test Cases/TC03 FAILED because (of) Unable to click on object 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Player Language New Player Lan/img_nfl_languageid_i' located by 'By.xpath: //img[count(. | //*[@src = '/_imgs/search_hover.gif']) = count(//*[@src = '/_imgs/search_hover.gif'])][count(. | //*[@id = 'nfl_languageid_i']) = count(//*[@id = 'nfl_languageid_i'])][count(. | //*[@alt = 'Select a value.']) = count(//*[@alt = 'Select a value.'])][count(. | //*[@class = 'ms-crm-InlineLookupEdit']) = count(//*[@class = 'ms-crm-InlineLookupEdit'])][count(. | //*[@title = 'Select a value.']) = count(//*[@title = 'Select a value.'])][count(. | id("nfl_languageid_i")) = count(id("nfl_languageid_i"))]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
